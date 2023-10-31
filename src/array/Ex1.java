@@ -17,7 +17,7 @@ public class Ex1 {
 		arr[2] = 30;
 		//arr[3] = 40; //에러남 new int에서 3개 까지만 저장으로 설정
 		
-		int value = arr[1];
+		int value = arr[1]; // 1번 값이 꺼내짐
 		System.out.println(value);
 	}
 
