@@ -6,7 +6,7 @@ public class Ex4 {
 
 	public static void main(String[] args) {
 		Student student1 = new Student("둘리");
-		student1.subjectList.add(new Subject("국어", 100)); 
+		student1.subjectList.add(new Subject("국어", 100)); //subjectList에다가 add메소드를 추가하여 국어 수학을 넣어줌 2개과목 생성
 		student1.subjectList.add(new Subject("수학", 50));
 		student1.showInfo(); 
 		
@@ -34,6 +34,7 @@ class Subject{
 class Student{
 	String studentName;
 	ArrayList<Subject> subjectList; //수강과목을 저장할 리스트
+	
 	public Student(String studentName) {
 		super();
 		this.studentName = studentName;
